@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProcessMaker-Project version="3.0">
+  <metadata>
+    <meta key="vendor_version">3.5.8-community</meta>
+    <meta key="vendor_version_code">Michelangelo</meta>
+    <meta key="export_timestamp">1763877348</meta>
+    <meta key="export_datetime"><![CDATA[2025-11-23T00:55:48-05:00]]></meta>
+    <meta key="export_server_addr"><![CDATA[::1:80]]></meta>
+    <meta key="export_server_os">WINNT</meta>
+    <meta key="export_server_php_version">70326</meta>
+    <meta key="workspace">workflow</meta>
+    <meta key="name">Sign Up form.</meta>
+    <meta key="uid">763275685688b4b1b3e7363045948797</meta>
+  </metadata>
+  <definition class="BPMN">
+    <table name="ACTIVITY">
+      <record>
+        <act_uid>670416600688b4be986da48022241181</act_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <pro_uid>903655978688b4b1c02e557026147996</pro_uid>
+        <act_name><![CDATA[اصلاح اطلاعات]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>511281803688b4be987a0d3091859203</bou_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>670416600688b4be986da48022241181</element_uid>
+        <bou_element>305629876688b4b71632054061143561</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>253</bou_x>
+        <bou_y>70</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <act_uid>944243076688b4b99bf7fd6093752220</act_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <pro_uid>903655978688b4b1c02e557026147996</pro_uid>
+        <act_name><![CDATA[بررسی اطلاعات]]></act_name>
+        <act_type>TASK</act_type>
+        <act_is_for_compensation>0</act_is_for_compensation>
+        <act_start_quantity>1</act_start_quantity>
+        <act_completion_quantity>0</act_completion_quantity>
+        <act_task_type>EMPTY</act_task_type>
+        <act_implementation></act_implementation>
+        <act_instantiate>0</act_instantiate>
+        <act_script_type></act_script_type>
+        <act_script></act_script>
+        <act_loop_type>EMPTY</act_loop_type>
+        <act_test_before>0</act_test_before>
+        <act_loop_maximum>0</act_loop_maximum>
+        <act_loop_condition>0</act_loop_condition>
+        <act_loop_cardinality>0</act_loop_cardinality>
+        <act_loop_behavior>0</act_loop_behavior>
+        <act_is_adhoc>0</act_is_adhoc>
+        <act_is_collapsed>0</act_is_collapsed>
+        <act_completion_condition>0</act_completion_condition>
+        <act_ordering>0</act_ordering>
+        <act_cancel_remaining_instances>0</act_cancel_remaining_instances>
+        <act_protocol>0</act_protocol>
+        <act_method>0</act_method>
+        <act_is_global>0</act_is_global>
+        <act_referer>0</act_referer>
+        <act_default_flow>0</act_default_flow>
+        <act_master_diagram>0</act_master_diagram>
+        <bou_uid>901886758688b4b99c10e28047941244</bou_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>944243076688b4b99bf7fd6093752220</element_uid>
+        <bou_element>961128667688b4b71837c08039404764</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>51</bou_x>
+        <bou_y>66</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="ARTIFACT"/>
+    <table name="BOUND">
+      <record>
+        <bou_uid>358684633688b4b4a084a03057821322</bou_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>861661549688b4b4a0249a7037893679</element_uid>
+        <bou_element>305629876688b4b71632054061143561</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>110</bou_x>
+        <bou_y>76</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>433490850688b4b49c5eb17055014038</bou_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>605665901688b4b49bed239089646762</element_uid>
+        <bou_element>947271670688b4b1bbdc677056918410</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>57</bou_x>
+        <bou_y>30</bou_y>
+        <bou_width>726</bou_width>
+        <bou_height>402</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+      <record>
+        <bou_uid>511281803688b4be987a0d3091859203</bou_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>670416600688b4be986da48022241181</element_uid>
+        <bou_element>305629876688b4b71632054061143561</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>253</bou_x>
+        <bou_y>70</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>695014148688b4b7163fb10081705472</bou_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>305629876688b4b71632054061143561</element_uid>
+        <bou_element>605665901688b4b49bed239089646762</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>685</bou_width>
+        <bou_height>202</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>699967519688b4b71840625027199891</bou_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>961128667688b4b71837c08039404764</element_uid>
+        <bou_element>605665901688b4b49bed239089646762</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>202</bou_y>
+        <bou_width>685</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <bou_uid>712323010688b4c39d7c8e2058390136</bou_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>866653633688b4c39d6b723035688062</element_uid>
+        <bou_element>961128667688b4b71837c08039404764</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>469</bou_x>
+        <bou_y>87</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>833100094688b4bc1c6c922016112948</bou_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>311828817688b4bc1c2e4a9088539202</element_uid>
+        <bou_element>961128667688b4b71837c08039404764</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>308</bou_x>
+        <bou_y>83</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <bou_uid>901886758688b4b99c10e28047941244</bou_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>944243076688b4b99bf7fd6093752220</element_uid>
+        <bou_element>961128667688b4b71837c08039404764</bou_element>
+        <bou_element_type>bpmnActivity</bou_element_type>
+        <bou_x>51</bou_x>
+        <bou_y>66</bou_y>
+        <bou_width>150</bou_width>
+        <bou_height>75</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="DATA"/>
+    <table name="DIAGRAM">
+      <record>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_name>Sign Up form.</dia_name>
+        <dia_is_closable>0</dia_is_closable>
+      </record>
+    </table>
+    <table name="DOCUMENTATION"/>
+    <table name="EVENT">
+      <record>
+        <evn_uid>861661549688b4b4a0249a7037893679</evn_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <pro_uid>903655978688b4b1c02e557026147996</pro_uid>
+        <evn_name><![CDATA[تکمیل فرم وب اینتری ثبت نام]]></evn_name>
+        <evn_type>START</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message>LEAD</evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>CATCH</evn_behavior>
+        <bou_uid>358684633688b4b4a084a03057821322</bou_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>861661549688b4b4a0249a7037893679</element_uid>
+        <bou_element>305629876688b4b71632054061143561</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>110</bou_x>
+        <bou_y>76</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+      <record>
+        <evn_uid>866653633688b4c39d6b723035688062</evn_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <pro_uid>903655978688b4b1c02e557026147996</pro_uid>
+        <evn_name></evn_name>
+        <evn_type>END</evn_type>
+        <evn_marker>EMPTY</evn_marker>
+        <evn_is_interrupting>1</evn_is_interrupting>
+        <evn_attached_to></evn_attached_to>
+        <evn_cancel_activity>0</evn_cancel_activity>
+        <evn_activity_ref></evn_activity_ref>
+        <evn_wait_for_completion>0</evn_wait_for_completion>
+        <evn_error_name></evn_error_name>
+        <evn_error_code></evn_error_code>
+        <evn_escalation_name></evn_escalation_name>
+        <evn_escalation_code></evn_escalation_code>
+        <evn_condition></evn_condition>
+        <evn_message></evn_message>
+        <evn_operation_name></evn_operation_name>
+        <evn_operation_implementation_ref></evn_operation_implementation_ref>
+        <evn_time_date></evn_time_date>
+        <evn_time_cycle></evn_time_cycle>
+        <evn_time_duration></evn_time_duration>
+        <evn_behavior>THROW</evn_behavior>
+        <bou_uid>712323010688b4c39d7c8e2058390136</bou_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>866653633688b4c39d6b723035688062</element_uid>
+        <bou_element>961128667688b4b71837c08039404764</bou_element>
+        <bou_element_type>bpmnEvent</bou_element_type>
+        <bou_x>469</bou_x>
+        <bou_y>87</bou_y>
+        <bou_width>33</bou_width>
+        <bou_height>33</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="EXTENSION"/>
+    <table name="FLOW">
+      <record>
+        <flo_uid>369356619688b4bc2253fc2053661356</flo_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>861661549688b4b4a0249a7037893679</flo_element_origin>
+        <flo_element_origin_type>bpmnEvent</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>944243076688b4b99bf7fd6093752220</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>226</flo_x1>
+        <flo_y1>141</flo_y1>
+        <flo_x2>226</flo_x2>
+        <flo_y2>302</flo_y2>
+        <flo_state><![CDATA[[{"x":226,"y":141},{"x":226,"y":302}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>418258579688b4c122871c5025590614</flo_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>311828817688b4bc1c2e4a9088539202</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>670416600688b4be986da48022241181</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@is_approved == '0']]></flo_condition>
+        <flo_x1>428</flo_x1>
+        <flo_y1>319</flo_y1>
+        <flo_x2>428</flo_x2>
+        <flo_y2>177</flo_y2>
+        <flo_state><![CDATA[[{"x":428,"y":319},{"x":428,"y":177}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>489854370688b4be9bc38a1090698152</flo_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>670416600688b4be986da48022241181</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>944243076688b4b99bf7fd6093752220</flo_element_dest>
+        <flo_element_dest_type>bpmnActivity</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>352</flo_x1>
+        <flo_y1>140</flo_y1>
+        <flo_x2>301</flo_x2>
+        <flo_y2>340</flo_y2>
+        <flo_state><![CDATA[[{"x":352,"y":140},{"x":326,"y":140},{"x":326,"y":340},{"x":301,"y":340}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>741438706688b4bc2258dc5088173354</flo_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>944243076688b4b99bf7fd6093752220</flo_element_origin>
+        <flo_element_origin_type>bpmnActivity</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>311828817688b4bc1c2e4a9088539202</flo_element_dest>
+        <flo_element_dest_type>bpmnGateway</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition></flo_condition>
+        <flo_x1>301</flo_x1>
+        <flo_y1>340</flo_y1>
+        <flo_x2>407</flo_x2>
+        <flo_y2>340</flo_y2>
+        <flo_state><![CDATA[[{"x":301,"y":340},{"x":407,"y":340}]]]></flo_state>
+        <flo_position>1</flo_position>
+      </record>
+      <record>
+        <flo_uid>595678261688b4c3a0873d2076785353</flo_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <flo_type>SEQUENCE</flo_type>
+        <flo_name> </flo_name>
+        <flo_element_origin>311828817688b4bc1c2e4a9088539202</flo_element_origin>
+        <flo_element_origin_type>bpmnGateway</flo_element_origin_type>
+        <flo_element_origin_port>0</flo_element_origin_port>
+        <flo_element_dest>866653633688b4c39d6b723035688062</flo_element_dest>
+        <flo_element_dest_type>bpmnEvent</flo_element_dest_type>
+        <flo_element_dest_port>0</flo_element_dest_port>
+        <flo_is_inmediate>1</flo_is_inmediate>
+        <flo_condition><![CDATA[@@is_approved == '1']]></flo_condition>
+        <flo_x1>448</flo_x1>
+        <flo_y1>340</flo_y1>
+        <flo_x2>568</flo_x2>
+        <flo_y2>340</flo_y2>
+        <flo_state><![CDATA[[{"x":448,"y":340},{"x":568,"y":340}]]]></flo_state>
+        <flo_position>2</flo_position>
+      </record>
+    </table>
+    <table name="GATEWAY">
+      <record>
+        <gat_uid>311828817688b4bc1c2e4a9088539202</gat_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <pro_uid>903655978688b4b1c02e557026147996</pro_uid>
+        <gat_name><![CDATA[بررسی اطلاعات]]></gat_name>
+        <gat_type>EXCLUSIVE</gat_type>
+        <gat_direction>DIVERGING</gat_direction>
+        <gat_instantiate>0</gat_instantiate>
+        <gat_event_gateway_type>NONE</gat_event_gateway_type>
+        <gat_activation_count>0</gat_activation_count>
+        <gat_waiting_for_start>1</gat_waiting_for_start>
+        <gat_default_flow>0</gat_default_flow>
+        <bou_uid>833100094688b4bc1c6c922016112948</bou_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>311828817688b4bc1c2e4a9088539202</element_uid>
+        <bou_element>961128667688b4b71837c08039404764</bou_element>
+        <bou_element_type>bpmnGateway</bou_element_type>
+        <bou_x>308</bou_x>
+        <bou_y>83</bou_y>
+        <bou_width>41</bou_width>
+        <bou_height>41</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnLane</bou_container>
+      </record>
+    </table>
+    <table name="LANE">
+      <record>
+        <lan_uid>305629876688b4b71632054061143561</lan_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <lns_uid>605665901688b4b49bed239089646762</lns_uid>
+        <lan_name><![CDATA[متقاضی]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>695014148688b4b7163fb10081705472</bou_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>305629876688b4b71632054061143561</element_uid>
+        <bou_element>605665901688b4b49bed239089646762</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>0</bou_y>
+        <bou_width>685</bou_width>
+        <bou_height>202</bou_height>
+        <bou_rel_position>1</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+      <record>
+        <lan_uid>961128667688b4b71837c08039404764</lan_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <lns_uid>605665901688b4b49bed239089646762</lns_uid>
+        <lan_name><![CDATA[ادمین]]></lan_name>
+        <lan_child_laneset></lan_child_laneset>
+        <lan_is_horizontal>1</lan_is_horizontal>
+        <bou_uid>699967519688b4b71840625027199891</bou_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>961128667688b4b71837c08039404764</element_uid>
+        <bou_element>605665901688b4b49bed239089646762</bou_element>
+        <bou_element_type>bpmnLane</bou_element_type>
+        <bou_x>40</bou_x>
+        <bou_y>202</bou_y>
+        <bou_width>685</bou_width>
+        <bou_height>200</bou_height>
+        <bou_rel_position>2</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnPool</bou_container>
+      </record>
+    </table>
+    <table name="LANESET">
+      <record>
+        <lns_uid>605665901688b4b49bed239089646762</lns_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <pro_uid>903655978688b4b1c02e557026147996</pro_uid>
+        <lns_name><![CDATA[فرم ثبت نام متقاضی]]></lns_name>
+        <lns_parent_lane></lns_parent_lane>
+        <lns_is_horizontal>1</lns_is_horizontal>
+        <lns_state></lns_state>
+        <bou_uid>433490850688b4b49c5eb17055014038</bou_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <element_uid>605665901688b4b49bed239089646762</element_uid>
+        <bou_element>947271670688b4b1bbdc677056918410</bou_element>
+        <bou_element_type>bpmnLaneset</bou_element_type>
+        <bou_x>57</bou_x>
+        <bou_y>30</bou_y>
+        <bou_width>726</bou_width>
+        <bou_height>402</bou_height>
+        <bou_rel_position>0</bou_rel_position>
+        <bou_size_identical>0</bou_size_identical>
+        <bou_container>bpmnDiagram</bou_container>
+      </record>
+    </table>
+    <table name="PARTICIPANT"/>
+    <table name="PROCESS">
+      <record>
+        <pro_uid>903655978688b4b1c02e557026147996</pro_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <dia_uid>947271670688b4b1bbdc677056918410</dia_uid>
+        <pro_name>Sign Up form.</pro_name>
+        <pro_type>NONE</pro_type>
+        <pro_is_executable>0</pro_is_executable>
+        <pro_is_closed>0</pro_is_closed>
+        <pro_is_subprocess>0</pro_is_subprocess>
+      </record>
+    </table>
+    <table name="PROJECT">
+      <record>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <prj_name>Sign Up form.</prj_name>
+        <prj_description>simple form to sign up people with required data and check for duplicates.</prj_description>
+        <prj_target_namespace></prj_target_namespace>
+        <prj_expresion_language></prj_expresion_language>
+        <prj_type_language></prj_type_language>
+        <prj_exporter></prj_exporter>
+        <prj_exporter_version></prj_exporter_version>
+        <prj_create_date><![CDATA[2025-07-31 06:53:15]]></prj_create_date>
+        <prj_update_date><![CDATA[2025-10-24 03:17:59]]></prj_update_date>
+        <prj_author>00000000000000000000000000000001</prj_author>
+        <prj_author_version></prj_author_version>
+        <prj_original_source></prj_original_source>
+      </record>
+    </table>
+  </definition>
+  <definition class="workflow">
+    <table name="process">
+      <record>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <pro_title>Sign Up form.</pro_title>
+        <pro_description>simple form to sign up people with required data and check for duplicates.</pro_description>
+        <pro_parent>763275685688b4b1b3e7363045948797</pro_parent>
+        <pro_time>1</pro_time>
+        <pro_timeunit>DAYS</pro_timeunit>
+        <pro_status>ACTIVE</pro_status>
+        <pro_status_id>1</pro_status_id>
+        <pro_type_day></pro_type_day>
+        <pro_type>NORMAL</pro_type>
+        <pro_assignment>FALSE</pro_assignment>
+        <pro_show_map>0</pro_show_map>
+        <pro_show_message>0</pro_show_message>
+        <pro_subprocess>0</pro_subprocess>
+        <pro_tri_create></pro_tri_create>
+        <pro_tri_open></pro_tri_open>
+        <pro_tri_deleted></pro_tri_deleted>
+        <pro_tri_canceled></pro_tri_canceled>
+        <pro_tri_paused></pro_tri_paused>
+        <pro_tri_reassigned></pro_tri_reassigned>
+        <pro_tri_unpaused></pro_tri_unpaused>
+        <pro_type_process>PUBLIC</pro_type_process>
+        <pro_show_delegate>0</pro_show_delegate>
+        <pro_show_dynaform>0</pro_show_dynaform>
+        <pro_category></pro_category>
+        <pro_sub_category></pro_sub_category>
+        <pro_industry>0</pro_industry>
+        <pro_update_date><![CDATA[2025-10-24 03:17:59]]></pro_update_date>
+        <pro_create_date><![CDATA[2025-07-31 06:53:15]]></pro_create_date>
+        <pro_create_user>00000000000000000000000000000001</pro_create_user>
+        <pro_height>5000</pro_height>
+        <pro_width>10000</pro_width>
+        <pro_title_x>0</pro_title_x>
+        <pro_title_y>0</pro_title_y>
+        <pro_debug>0</pro_debug>
+        <pro_dynaforms></pro_dynaforms>
+        <pro_derivation_screen_tpl></pro_derivation_screen_tpl>
+        <pro_cost>0</pro_cost>
+        <pro_unit_cost></pro_unit_cost>
+        <pro_itee>1</pro_itee>
+        <pro_action_done><![CDATA[a:1:{i:0;s:41:"GATEWAYTOGATEWAY_DELETE_CORRUPTED_RECORDS";}]]></pro_action_done>
+        <category_id>0</category_id>
+        <pro_category_label>No Category</pro_category_label>
+        <pro_bpmn>1</pro_bpmn>
+      </record>
+    </table>
+    <table name="tasks">
+      <record>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>wee-61549688b4b4a0249a7037893679</tas_uid>
+        <tas_title>WEBENTRYEVENT</tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>WEBENTRYEVENT</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000002</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>110</tas_posx>
+        <tas_posy>76</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>670416600688b4be986da48022241181</tas_uid>
+        <tas_title><![CDATA[اصلاح اطلاعات]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>EVALUATE</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@CaseOwner]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>0</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>FALSE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>253</tas_posx>
+        <tas_posy>70</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+      <record>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <pro_id>0</pro_id>
+        <tas_uid>944243076688b4b99bf7fd6093752220</tas_uid>
+        <tas_title><![CDATA[بررسی اطلاعات]]></tas_title>
+        <tas_description></tas_description>
+        <tas_def_title></tas_def_title>
+        <tas_def_subject_message></tas_def_subject_message>
+        <tas_def_proc_code></tas_def_proc_code>
+        <tas_def_message></tas_def_message>
+        <tas_def_description></tas_def_description>
+        <tas_type>NORMAL</tas_type>
+        <tas_duration>1</tas_duration>
+        <tas_delay_type></tas_delay_type>
+        <tas_temporizer>0</tas_temporizer>
+        <tas_type_day></tas_type_day>
+        <tas_timeunit>DAYS</tas_timeunit>
+        <tas_alert>FALSE</tas_alert>
+        <tas_priority_variable></tas_priority_variable>
+        <tas_assign_type>BALANCED</tas_assign_type>
+        <tas_assign_variable><![CDATA[@@SYS_NEXT_USER_TO_BE_ASSIGNED]]></tas_assign_variable>
+        <tas_group_variable></tas_group_variable>
+        <tas_mi_instance_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCE]]></tas_mi_instance_variable>
+        <tas_mi_complete_variable><![CDATA[@@SYS_VAR_TOTAL_INSTANCES_COMPLETE]]></tas_mi_complete_variable>
+        <tas_assign_location>FALSE</tas_assign_location>
+        <tas_assign_location_adhoc>FALSE</tas_assign_location_adhoc>
+        <tas_transfer_fly>FALSE</tas_transfer_fly>
+        <tas_last_assigned>00000000000000000000000000000001</tas_last_assigned>
+        <tas_user>0</tas_user>
+        <tas_can_upload>FALSE</tas_can_upload>
+        <tas_view_upload>FALSE</tas_view_upload>
+        <tas_view_additional_documentation>FALSE</tas_view_additional_documentation>
+        <tas_can_cancel>FALSE</tas_can_cancel>
+        <tas_owner_app>FALSE</tas_owner_app>
+        <stg_uid></stg_uid>
+        <tas_can_pause>FALSE</tas_can_pause>
+        <tas_can_send_message>TRUE</tas_can_send_message>
+        <tas_can_delete_docs>FALSE</tas_can_delete_docs>
+        <tas_self_service>FALSE</tas_self_service>
+        <tas_start>TRUE</tas_start>
+        <tas_to_last_user>FALSE</tas_to_last_user>
+        <tas_send_last_email>FALSE</tas_send_last_email>
+        <tas_derivation>NORMAL</tas_derivation>
+        <tas_posx>51</tas_posx>
+        <tas_posy>66</tas_posy>
+        <tas_width>110</tas_width>
+        <tas_height>60</tas_height>
+        <tas_color></tas_color>
+        <tas_evn_uid></tas_evn_uid>
+        <tas_boundary></tas_boundary>
+        <tas_derivation_screen_tpl></tas_derivation_screen_tpl>
+        <tas_selfservice_timeout>0</tas_selfservice_timeout>
+        <tas_selfservice_time>0</tas_selfservice_time>
+        <tas_selfservice_time_unit></tas_selfservice_time_unit>
+        <tas_selfservice_trigger_uid></tas_selfservice_trigger_uid>
+        <tas_selfservice_execution>EVERY_TIME</tas_selfservice_execution>
+        <tas_not_email_from_format>0</tas_not_email_from_format>
+        <tas_offline>FALSE</tas_offline>
+        <tas_email_server_uid></tas_email_server_uid>
+        <tas_auto_root>FALSE</tas_auto_root>
+        <tas_receive_server_uid></tas_receive_server_uid>
+        <tas_receive_last_email>FALSE</tas_receive_last_email>
+        <tas_receive_email_from_format>0</tas_receive_email_from_format>
+        <tas_receive_message_type>text</tas_receive_message_type>
+        <tas_receive_message_template>alert_message.html</tas_receive_message_template>
+        <tas_receive_subject_message></tas_receive_subject_message>
+        <tas_receive_message></tas_receive_message>
+      </record>
+    </table>
+    <table name="routes">
+      <record>
+        <rou_uid>24683611168fb2828800ba6068731954</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tas_uid>944243076688b4b99bf7fd6093752220</tas_uid>
+        <rou_next_task>-1</rou_next_task>
+        <rou_case>2</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@is_approved == '1']]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>28930092768fb2828645ee8047870678</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tas_uid>670416600688b4be986da48022241181</tas_uid>
+        <rou_next_task>944243076688b4b99bf7fd6093752220</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>51859798568fb28289152c6097214513</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tas_uid>wee-61549688b4b4a0249a7037893679</tas_uid>
+        <rou_next_task>944243076688b4b99bf7fd6093752220</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>SEQUENTIAL</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+      <record>
+        <rou_uid>91812356268fb28287965c4069781632</rou_uid>
+        <rou_parent>0</rou_parent>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tas_uid>944243076688b4b99bf7fd6093752220</tas_uid>
+        <rou_next_task>670416600688b4be986da48022241181</rou_next_task>
+        <rou_case>1</rou_case>
+        <rou_type>EVALUATE</rou_type>
+        <rou_default>0</rou_default>
+        <rou_condition><![CDATA[@@is_approved == '0']]></rou_condition>
+        <rou_to_last_user>FALSE</rou_to_last_user>
+        <rou_optional>FALSE</rou_optional>
+        <rou_send_email>TRUE</rou_send_email>
+        <rou_sourceanchor>1</rou_sourceanchor>
+        <rou_targetanchor>0</rou_targetanchor>
+        <rou_to_port>1</rou_to_port>
+        <rou_from_port>2</rou_from_port>
+        <rou_evn_uid></rou_evn_uid>
+        <gat_uid></gat_uid>
+      </record>
+    </table>
+    <table name="lanes"/>
+    <table name="gateways"/>
+    <table name="inputs">
+      <record>
+        <inp_doc_uid>616958964688b9b6c34a483001370078</inp_doc_uid>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <inp_doc_title>doctuments</inp_doc_title>
+        <inp_doc_description>uploading documents using for approving sign up.</inp_doc_description>
+        <inp_doc_form_needed>VIRTUAL</inp_doc_form_needed>
+        <inp_doc_original>ORIGINAL</inp_doc_original>
+        <inp_doc_published>PRIVATE</inp_doc_published>
+        <inp_doc_versioning>0</inp_doc_versioning>
+        <inp_doc_destination_path><![CDATA[Sign Up/Case @=APP_NUMBER/Documents]]></inp_doc_destination_path>
+        <inp_doc_tags>DOCUMENT</inp_doc_tags>
+        <inp_doc_type_file><![CDATA[*.jpeg,*.pdf,*.png]]></inp_doc_type_file>
+        <inp_doc_max_filesize>10</inp_doc_max_filesize>
+        <inp_doc_max_filesize_unit>MB</inp_doc_max_filesize_unit>
+      </record>
+    </table>
+    <table name="outputs"/>
+    <table name="dynaforms">
+      <record>
+        <dyn_uid>454576858689793a777f344008495089</dyn_uid>
+        <dyn_title>SignUpFormApproval</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[763275685688b4b1b3e7363045948797\454576858689793a777f344008495089]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"SignUpFormApproval","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"454576858689793a777f344008495089","name":"SignUpFormApproval","description":"","mode":"edit","script":{"type":"js","code":"$('.pmdynaform-field-subtitle:not(#subDocuments)').css('background',  '#96e0b4').css('color', '#01662a');\n\n\n$('#subDocuments').css('background',  '#01662a').css('color', '#96e0b4');\n\n\n//Approve or Reject handler \nfunction  approval(action) { \n  if (confirm('مطمئنید که میخواهید  ' + action + ' کنید ؟')) {\n    if (action === 'تایید') {\n      $(\"#is_approved\").setValue(1);\n      $(\"form\").submit();\n    } if (action === 'رد')  {\n      $(\"#is_approved\").setValue(0);\n      $(\"form\").submit();\n    }\n  } else  return false;\n}\n//Approve  form \n$(\"#btnApprove\").find(\"button\").on(\"click\", function()  {\n  return approval('تایید');\n});\n//Reject form \n$(\"#btnReject\").find(\"button\").on(\"click\", function() {\n  return  approval('رد');\n});"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"radio","variable":"radApplicantType","var_uid":"105412319688b4cd4a07670076191511","dataType":"string","protectedValue":false,"id":"radApplicantType","name":"radApplicantType","label":"نوع متقاضی","tabIndex":"","defaultValue":"real","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","mode":"disabled","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"real","label":"حقیقی"},{"value":"legal","label":"حقوقی"}],"var_name":"radApplicantType","colSpan":12}],[{"type":"subtitle","id":"subtitle0000000001","label":"مشخصات مالک حقیقی","ariaLabel":"","colSpan":12}],[{"type":"text","variable":"txtFullName_1","var_uid":"564031581688b54db398058011973900","dataType":"string","protectedValue":false,"id":"txtFullName_1","name":"txtFullName_1","label":"نام و نام خانوادگی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtFullName_1","colSpan":6},{"type":"text","variable":"txtNationalID_1","var_uid":"737130628688b550847e292055124354","dataType":"integer","protectedValue":false,"id":"txtNationalId_1","name":"txtNationalID_1","label":"کد ملی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^[1-9][0-9]{9}$","validateMessage":"لطفا مطمئن شوید که کد ملی به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtNationalID_1","colSpan":6}],[{"type":"datetime","variable":"datBirthday","var_uid":"314902589688b58061aaca8021823263","dataType":"datetime","protectedValue":false,"id":"datBirthday","name":"datBirthday","label":"تاریخ تولد:","tabIndex":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","mode":"disabled","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"@@max_date","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"datBirthday","colSpan":6},{"type":"text","variable":"txtFatherName","var_uid":"660133220688b57d0d72223019066972","dataType":"string","protectedValue":false,"id":"txtFatherName","name":"txtFatherName","label":"نام پدر:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtFatherName","colSpan":6}],[{"type":"text","variable":"txtBirthLocation","var_uid":"469166755688b58a06417a1078084796","dataType":"string","protectedValue":false,"id":"txtBirthLocation","name":"txtBirthLocation","label":"محل تولد:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtBirthLocation","colSpan":6},{"type":"text","variable":"txtCertID","var_uid":"464122926688b58708c34f0035268386","dataType":"string","protectedValue":false,"id":"txtCertID","name":"txtCertID","label":"شماره شناسنامه:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtCertID","colSpan":6}],[{"type":"text","variable":"txtMobile_1","var_uid":"615634112688b551d6116e7039035102","dataType":"integer","protectedValue":false,"id":"txtMobile","name":"txtMobile_1","label":"شماره موبایل:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^09\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره موبایل به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtMobile_1","colSpan":6},{"type":"text","variable":"txtPhone_1","var_uid":"964291802688b5528408516037183376","dataType":"integer","protectedValue":false,"id":"txtPhone","name":"txtPhone_1","label":"شماره ثابت:","tabIndex":"","defaultValue":"","placeholder":"","hint":"شماره ثابت به همراه کد شهر","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^0[1-9]\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره ثابت به همراه کد شهررا وارد کرده اید","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPhone_1","colSpan":6}],[{"type":"radio","variable":"radGender","var_uid":"287612485688b59ffd78d94062531327","dataType":"string","protectedValue":false,"id":"radGender","name":"radGender","label":"جنسیت","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","mode":"disabled","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"female","label":"زن"},{"value":"male","label":"مرد"}],"var_name":"radGender","colSpan":6},{"colSpan":6}],[{"type":"subtitle","id":"subtitle0000000002","label":"مشخصات نماینده یا وکیل","ariaLabel":"","colSpan":12}],[{"type":"text","variable":"txtFullName_2","var_uid":"986942759688b6100d7a824041128023","dataType":"string","protectedValue":false,"id":"txtFullName_2","name":"txtFullName_2","label":"نام و نام خانوادگی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtFullName_2","colSpan":6},{"type":"text","variable":"txtNationalID_2","var_uid":"706670628688b60f56606b0082741354","dataType":"integer","protectedValue":false,"id":"txtNationalID_2","name":"txtNationalID_2","label":"کد ملی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^[1-9][0-9]{9}$","validateMessage":"لطفا مطمئن شوید که کد ملی به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtNationalID_2","colSpan":6}],[{"type":"text","variable":"txtMobile_2","var_uid":"664885630688b611a259aa3097214206","dataType":"integer","protectedValue":false,"id":"txtMobile_2","name":"txtMobile_2","label":"شماره موبایل:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^09\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره موبایل به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtMobile_2","colSpan":6},{"type":"text","variable":"txtPhone_2","var_uid":"190877037688b610d4c6b31077302343","dataType":"integer","protectedValue":false,"id":"txtPhone_2","name":"txtPhone_2","label":"شماره ثابت:","tabIndex":"","defaultValue":"","placeholder":"","hint":"شماره ثابت به همراه کد شهر","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^0[1-9]\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره ثابت به همراه کد شهررا وارد کرده اید","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPhone_2","colSpan":6}],[{"type":"subtitle","id":"subtitle0000000003","label":"اطلاعات ملک","ariaLabel":"","colSpan":12}],[{"type":"text","variable":"txtPassword","var_uid":"203301626688c54233cad12094589656","dataType":"string","protectedValue":false,"id":"txtPassword","name":"txtPassword","label":"رمز عبور:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPassword","colSpan":4},{"type":"text","variable":"txtMobile_3","var_uid":"448581489688b64703ef266084114442","dataType":"integer","protectedValue":false,"id":"txtMobile_3","name":"txtMobile_3","label":"شماره موبایل:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^09\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره موبایل به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtMobile_3","colSpan":4},{"type":"text","variable":"txtPhone_3","var_uid":"250825858688b645b390f55078879325","dataType":"integer","protectedValue":false,"id":"txtPhone_3","name":"txtPhone_3","label":"شماره ثابت:","tabIndex":"","defaultValue":"","placeholder":"","hint":"شماره ثابت به همراه کد شهر","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^0[1-9]\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره ثابت به همراه کد شهررا وارد کرده اید","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPhone_3","colSpan":4}],[{"type":"textarea","variable":"txrAddress","var_uid":"110710856688b614924c677058026036","dataType":"string","protectedValue":false,"id":"txrAddress","name":"txrAddress","label":"آدرس:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","validate":"","validateMessage":"","mode":"disabled","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"rows":"1","var_name":"txrAddress","colSpan":4},{"type":"dropdown","variable":"drpCity","var_uid":"795427883688b613c893eb2075273359","dataType":"string","protectedValue":false,"id":"drpCity","name":"drpCity","label":"شهرستان:","tabIndex":"","defaultValue":"","placeholder":"لطفا شهرستان خود را انتخاب کنید","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","mode":"disabled","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"zanjan","label":"زنجان"},{"value":"abhar","label":"ابهر"},{"value":"khorram_darreh","label":"خرمدره"},{"value":"khodabandeh","label":"خدابنده"},{"value":"ijrood","label":"ایجرود"},{"value":"tarom","label":"طارم"},{"value":"mahneshan","label":"ماهنشان"},{"value":"soltaniyeh","label":"سلطانیه"}],"var_name":"drpCity","colSpan":4},{"type":"text","variable":"txtPostalCode","var_uid":"260521674688b5511b21ad7030232771","dataType":"integer","protectedValue":false,"id":"txtPostalCode","name":"txtPostalCode","label":"کد پستی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^[1-9][0-9]{9}$","validateMessage":"لطفا مطمئن شوید که کد پستی درست است","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPostalCode","colSpan":4}],[{"type":"text","variable":"txtEmail","var_uid":"607823135688bc5b3afd605045260191","dataType":"string","protectedValue":false,"id":"txtEmail","name":"txtEmail","label":"ایمیل:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^\\w+(\\.\\w+)*@(\\w+\\.)+\\w{2,4}$","validateMessage":"لطفا مطمئن شوید که ایمیل به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"disabled","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtEmail","colSpan":12}],[{"type":"subtitle","id":"subDocuments","label":"لطفا مدارک را در این قسمت آپلود کنید","ariaLabel":"","colSpan":12}],[{"type":"multipleFile","variable":"mfiDocuments","var_uid":"960444431688b61591bb652044027247","dataType":"multiplefile","protectedValue":false,"id":"mfiDocuments","name":"mfiDocuments","label":"","tabIndex":"","ariaLabel":"","inputDocument":"doctuments","required":false,"requiredFieldErrorMessage":"","dnd":false,"extensions":"*.jpeg,*.pdf,*.png","size":10,"sizeUnity":"MB","enableVersioning":false,"mode":"disabled","multiple":false,"inp_doc_uid":"616958964688b9b6c34a483001370078","var_name":"mfiDocuments","colSpan":12}],[{"type":"submit","id":"btnApprove","name":"btnApprove","label":"تایید درخواست","tabIndex":"","ariaLabel":"","colSpan":6},{"type":"submit","id":"btnReject","name":"btnReject","label":"رد درخواست","tabIndex":"","ariaLabel":"","colSpan":6}],[{"type":"hidden","variable":"CaseOwner","var_uid":"436783525688ba609d19748011020372","dataType":"string","protectedValue":false,"id":"CaseOwner","name":"CaseOwner","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"CaseOwner","colSpan":6},{"type":"hidden","variable":"is_approved","var_uid":"312713389688bbd881443c1022031780","dataType":"boolean","protectedValue":false,"id":"is_approved","name":"is_approved","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"is_approved","colSpan":6}]],"variables":[{"var_uid":"105412319688b4cd4a07670076191511","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"radApplicantType","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"105412319688b4cd4a07670076191511","var_name_old":"radApplicantType","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"564031581688b54db398058011973900","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtFullName_1","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"564031581688b54db398058011973900","var_name_old":"txtFullName_1","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"737130628688b550847e292055124354","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtNationalID_1","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"737130628688b550847e292055124354","var_name_old":"txtNationalID_1","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"314902589688b58061aaca8021823263","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"datBirthday","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"314902589688b58061aaca8021823263","var_name_old":"datBirthday","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"660133220688b57d0d72223019066972","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtFatherName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"660133220688b57d0d72223019066972","var_name_old":"txtFatherName","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"469166755688b58a06417a1078084796","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtBirthLocation","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"469166755688b58a06417a1078084796","var_name_old":"txtBirthLocation","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"464122926688b58708c34f0035268386","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtCertID","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"464122926688b58708c34f0035268386","var_name_old":"txtCertID","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"615634112688b551d6116e7039035102","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtMobile_1","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"615634112688b551d6116e7039035102","var_name_old":"txtMobile_1","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"964291802688b5528408516037183376","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPhone_1","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"964291802688b5528408516037183376","var_name_old":"txtPhone_1","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"287612485688b59ffd78d94062531327","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"radGender","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[{"value":"female","label":"زن"},{"value":"male","label":"مرد"}],"inp_doc_uid":"","var_uid_old":"287612485688b59ffd78d94062531327","var_name_old":"radGender","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"986942759688b6100d7a824041128023","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtFullName_2","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"986942759688b6100d7a824041128023","var_name_old":"txtFullName_2","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"706670628688b60f56606b0082741354","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtNationalID_2","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"706670628688b60f56606b0082741354","var_name_old":"txtNationalID_2","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"664885630688b611a259aa3097214206","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtMobile_2","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"664885630688b611a259aa3097214206","var_name_old":"txtMobile_2","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"190877037688b610d4c6b31077302343","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPhone_2","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"190877037688b610d4c6b31077302343","var_name_old":"txtPhone_2","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"203301626688c54233cad12094589656","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPassword","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"203301626688c54233cad12094589656","var_name_old":"txtPassword","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"448581489688b64703ef266084114442","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtMobile_3","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"448581489688b64703ef266084114442","var_name_old":"txtMobile_3","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"250825858688b645b390f55078879325","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPhone_3","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"250825858688b645b390f55078879325","var_name_old":"txtPhone_3","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"110710856688b614924c677058026036","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txrAddress","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"110710856688b614924c677058026036","var_name_old":"txrAddress","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"795427883688b613c893eb2075273359","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"drpCity","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"795427883688b613c893eb2075273359","var_name_old":"drpCity","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"260521674688b5511b21ad7030232771","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPostalCode","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"260521674688b5511b21ad7030232771","var_name_old":"txtPostalCode","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"607823135688bc5b3afd605045260191","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtEmail","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"607823135688bc5b3afd605045260191","var_name_old":"txtEmail","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"960444431688b61591bb652044027247","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"mfiDocuments","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"960444431688b61591bb652044027247","var_name_old":"mfiDocuments","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"436783525688ba609d19748011020372","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"CaseOwner","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":"","var_uid_old":"436783525688ba609d19748011020372","var_name_old":"CaseOwner","prj_uid_old":"763275685688b4b1b3e7363045948797","create":false},{"var_uid":"312713389688bbd881443c1022031780","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"is_approved","var_field_type":"boolean","var_field_size":10,"var_label":"boolean","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"1\",\"label\":\"true\"},{\"value\":\"0\",\"label\":\"false\"}]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2025-08-09 14:36:46]]></dyn_update_date>
+      </record>
+      <record>
+        <dyn_uid>495347653688b4c5f36c881013286226</dyn_uid>
+        <dyn_title>SignUpForm</dyn_title>
+        <dyn_description></dyn_description>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <dyn_type>xmlform</dyn_type>
+        <dyn_filename><![CDATA[763275685688b4b1b3e7363045948797\495347653688b4c5f36c881013286226]]></dyn_filename>
+        <dyn_content><![CDATA[{"name":"SignUpForm","description":"","items":[{"type":"form","variable":"","var_uid":"","dataType":"","id":"495347653688b4c5f36c881013286226","name":"SignUpForm","description":"","mode":"edit","script":{"type":"js","code":"$('.pmdynaform-field-subtitle:not(#subDocuments)')\n  .css('background', '#96e0b4')\n  .css('color', '#01662a');\n\n$('#subDocuments')\n  .css('background', '#01662a')\n  .css('color', '#96e0b4');\n\n\n$(\"#radApplicantType\").setOnchange(function () {\n\n  function toggleFields(fields, enabled) {\n    fields.forEach(function (id) {\n      const $ctrl = $(\"#\" + id).getControl();\n      $ctrl.attr(\"disabled\", !enabled);\n\n      //  به جای prop(\"required\") از validation اختصاصی ProcessMaker استفاده شد\n      if (enabled) {\n        $(\"#\" + id).enableValidation();\n      } else {\n        $(\"#\" + id).disableValidation();\n      }\n    });\n  }\n\n  const realFields = [\n    \"txtFullName_1\",\n    \"txtNationalId_1\",\n    \"datBirthday\",\n    \"txtFatherName\",\n    \"txtBirthLocation\",\n    \"txtCertID\",\n    \"txtMobile\",\n    \"txtPhone\",\n    \"radGender\"\n  ];\n\n  const legalFields = [\n    \"txtFullName_2\",\n    \"txtNationalID_2\",\n    \"txtMobile_2\",\n    \"txtPhone_2\"\n  ];\n\n  if ($(\"#radApplicantType\").getValue() === \"legal\") {\n    toggleFields(realFields, false);\n    toggleFields(legalFields, true);\n  }\n\n  if ($(\"#radApplicantType\").getValue() === \"real\") {\n    toggleFields(legalFields, false);\n    toggleFields(realFields, true);\n  }\n});\n\n\n//  بررسی صحت کد ملی و کد پستی + کنترل تکراری بودن با AJAX\n$(\"form\").on(\"submit\", function () {\n  \n  let nationalId = $(\"#txtNationalId_1\").getValue().trim();\n  let postalCode = $(\"#txtPostalCode_1\").getValue().trim();\n  let valid = true;\n\n  $(\"#txtNationalId_1\").getControl().css(\"border\", \"\");\n  $(\"#txtPostalCode_1\").getControl().css(\"border\", \"\");\n\n  // بررسی الگوی کد ملی\n  if (!/^[1-9][0-9]{9}$/.test(nationalId)) {\n    $(\"#txtNationalId_1\").getControl().css(\"border\", \"2px solid red\");\n    valid = false;\n  }\n\n  // بررسی الگوی کد پستی\n  if (!/^\\d{10}$/.test(postalCode)) { \n    $(\"#txtPostalCode_1\").getControl().css(\"border\", \"2px solid red\");\n    valid = false;\n  }\n\n  if (!valid) {\n    alert(\"لطفاً کد ملی و کد پستی را به درستی وارد کنید.\");\n    return false;\n  }\n\n  // ====== بررسی تکراری بودن از طریق Ajax ======\n  $.ajax({\n    type: \"POST\",\n    url: window.location,\n    dataType: \"json\",\n    async: true,\n    data: {\n      action: \"check_duplicate_user\",\n      national_id: nationalId,\n      postal_code: postalCode\n    },\n    success: function (jsn) {\n      console.log(jsn);\n\n      if (jsn.result === true) {\n        alert(jsn.message || \"کاربری با این اطلاعات قبلاً ثبت شده است!\");\n      } else if (jsn.result === false) {\n        $(\"form\")[0].submit();\n      } else {\n        alert(\"پاسخ نامعتبر از سرور!\");\n      }\n    },\n    error: function (xhr, status, error) {\n      alert(\"خطا در ارتباط با سرور: \" + error);\n    }\n  });\n\n  return false; \n});\n"},"language":"en","externalLibs":"","printable":false,"items":[[{"type":"radio","variable":"radApplicantType","var_uid":"105412319688b4cd4a07670076191511","dataType":"string","protectedValue":false,"id":"radApplicantType","name":"radApplicantType","label":"نوع متقاضی","tabIndex":"","defaultValue":"real","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"real","label":"حقیقی"},{"value":"legal","label":"حقوقی"}],"var_name":"radApplicantType","colSpan":12}],[{"type":"subtitle","id":"subtitle0000000001","label":"مشخصات مالک حقیقی","ariaLabel":"","colSpan":12}],[{"type":"text","variable":"txtFullName_1","var_uid":"564031581688b54db398058011973900","dataType":"string","protectedValue":false,"id":"txtFullName_1","name":"txtFullName_1","label":"نام و نام خانوادگی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtFullName_1","colSpan":6},{"type":"text","variable":"txtNationalID_1","var_uid":"737130628688b550847e292055124354","dataType":"integer","protectedValue":false,"id":"txtNationalId_1","name":"txtNationalID_1","label":"کد ملی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"لطفا مطمئن شوید که کد ملی به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtNationalID_1","colSpan":6}],[{"type":"datetime","variable":"datBirthday","var_uid":"314902589688b58061aaca8021823263","dataType":"datetime","protectedValue":false,"id":"datBirthday","name":"datBirthday","label":"تاریخ تولد:","tabIndex":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","mode":"parent","format":"YYYY-MM-DD","dayViewHeaderFormat":"MMMM YYYY","extraFormats":false,"stepping":1,"minDate":"","maxDate":"@@max_date","useCurrent":"false","collapse":true,"locale":"","defaultDate":"","disabledDates":false,"enabledDates":false,"icons":{"time":"glyphicon glyphicon-time","date":"glyphicon glyphicon-calendar","up":"glyphicon glyphicon-chevron-up","down":"glyphicon glyphicon-chevron-down","previous":"glyphicon glyphicon-chevron-left","next":"glyphicon glyphicon-chevron-right","today":"glyphicon glyphicon-screenshot","clear":"glyphicon glyphicon-trash"},"useStrict":false,"sideBySide":false,"daysOfWeekDisabled":false,"calendarWeeks":false,"viewMode":"days","toolbarPlacement":"default","showTodayButton":false,"showClear":"false","widgetPositioning":{"horizontal":"auto","vertical":"auto"},"widgetParent":null,"keepOpen":false,"var_name":"datBirthday","colSpan":6},{"type":"text","variable":"txtFatherName","var_uid":"660133220688b57d0d72223019066972","dataType":"string","protectedValue":false,"id":"txtFatherName","name":"txtFatherName","label":"نام پدر:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtFatherName","colSpan":6}],[{"type":"text","variable":"txtBirthLocation","var_uid":"469166755688b58a06417a1078084796","dataType":"string","protectedValue":false,"id":"txtBirthLocation","name":"txtBirthLocation","label":"محل تولد:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtBirthLocation","colSpan":6},{"type":"text","variable":"txtCertID","var_uid":"464122926688b58708c34f0035268386","dataType":"string","protectedValue":false,"id":"txtCertID","name":"txtCertID","label":"شماره شناسنامه:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtCertID","colSpan":6}],[{"type":"text","variable":"txtMobile_1","var_uid":"615634112688b551d6116e7039035102","dataType":"integer","protectedValue":false,"id":"txtMobile","name":"txtMobile_1","label":"شماره موبایل:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^09\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره موبایل به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtMobile_1","colSpan":6},{"type":"text","variable":"txtPhone_1","var_uid":"964291802688b5528408516037183376","dataType":"integer","protectedValue":false,"id":"txtPhone","name":"txtPhone_1","label":"شماره ثابت:","tabIndex":"","defaultValue":"","placeholder":"","hint":"شماره ثابت به همراه کد شهر","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^0[1-9]\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره ثابت به همراه کد شهررا وارد کرده اید","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPhone_1","colSpan":6}],[{"type":"radio","variable":"radGender","var_uid":"287612485688b59ffd78d94062531327","dataType":"string","protectedValue":false,"id":"radGender","name":"radGender","label":"جنسیت","tabIndex":"","defaultValue":"","hint":"","ariaLabel":"","ariaLabelVisible":true,"required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"female","label":"زن"},{"value":"male","label":"مرد"}],"var_name":"radGender","colSpan":6},{"colSpan":6}],[{"type":"subtitle","id":"subtitle0000000002","label":"مشخصات نماینده یا وکیل","ariaLabel":"","colSpan":12}],[{"type":"text","variable":"txtFullName_2","var_uid":"986942759688b6100d7a824041128023","dataType":"string","protectedValue":false,"id":"txtFullName_2","name":"txtFullName_2","label":"نام و نام خانوادگی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtFullName_2","colSpan":6},{"type":"text","variable":"txtNationalID_2","var_uid":"706670628688b60f56606b0082741354","dataType":"integer","protectedValue":false,"id":"txtNationalID_2","name":"txtNationalID_2","label":"کد ملی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^[1-9][0-9]{9}$","validateMessage":"لطفا مطمئن شوید که کد ملی به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtNationalID_2","colSpan":6}],[{"type":"text","variable":"txtMobile_2","var_uid":"664885630688b611a259aa3097214206","dataType":"integer","protectedValue":false,"id":"txtMobile_2","name":"txtMobile_2","label":"شماره موبایل:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^09\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره موبایل به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtMobile_2","colSpan":6},{"type":"text","variable":"txtPhone_2","var_uid":"190877037688b610d4c6b31077302343","dataType":"integer","protectedValue":false,"id":"txtPhone_2","name":"txtPhone_2","label":"شماره ثابت:","tabIndex":"","defaultValue":"","placeholder":"","hint":"شماره ثابت به همراه کد شهر","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^0[1-9]\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره ثابت به همراه کد شهررا وارد کرده اید","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPhone_2","colSpan":6}],[{"type":"subtitle","id":"subtitle0000000003","label":"اطلاعات ملک","ariaLabel":"","colSpan":12}],[{"type":"text","variable":"txtPassword","var_uid":"203301626688c54233cad12094589656","dataType":"string","protectedValue":false,"id":"txtPassword","name":"txtPassword","label":"رمز عبور:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"","validateMessage":"","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPassword","colSpan":4},{"type":"text","variable":"txtMobile_3","var_uid":"448581489688b64703ef266084114442","dataType":"integer","protectedValue":false,"id":"txtMobile_3","name":"txtMobile_3","label":"شماره موبایل:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^09\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره موبایل به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtMobile_3","colSpan":4},{"type":"text","variable":"txtPhone_3","var_uid":"250825858688b645b390f55078879325","dataType":"integer","protectedValue":false,"id":"txtPhone_3","name":"txtPhone_3","label":"شماره ثابت:","tabIndex":"","defaultValue":"","placeholder":"","hint":"شماره ثابت به همراه کد شهر","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^0[1-9]\\d{9}$","validateMessage":"لطفا مطمئن شوید که شماره ثابت به همراه کد شهررا وارد کرده اید","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPhone_3","colSpan":4}],[{"type":"textarea","variable":"txrAddress","var_uid":"110710856688b614924c677058026036","dataType":"string","protectedValue":false,"id":"txrAddress","name":"txrAddress","label":"آدرس:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","validate":"","validateMessage":"","mode":"parent","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"rows":"1","var_name":"txrAddress","colSpan":4},{"type":"dropdown","variable":"drpCity","var_uid":"795427883688b613c893eb2075273359","dataType":"string","protectedValue":false,"id":"drpCity","name":"drpCity","label":"شهرستان:","tabIndex":"","defaultValue":"","placeholder":"لطفا شهرستان خود را انتخاب کنید","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","mode":"parent","datasource":"database","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"dataVariable":"","options":[{"value":"zanjan","label":"زنجان"},{"value":"abhar","label":"ابهر"},{"value":"khorram_darreh","label":"خرمدره"},{"value":"khodabandeh","label":"خدابنده"},{"value":"ijrood","label":"ایجرود"},{"value":"tarom","label":"طارم"},{"value":"mahneshan","label":"ماهنشان"},{"value":"soltaniyeh","label":"سلطانیه"}],"var_name":"drpCity","colSpan":4},{"type":"text","variable":"txtPostalCode","var_uid":"260521674688b5511b21ad7030232771","dataType":"integer","protectedValue":false,"id":"txtPostalCode","name":"txtPostalCode","label":"کد پستی:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"لطفا این بخش را پر کنید","textTransform":"none","validate":"^[1-9][0-9]{9}$","validateMessage":"لطفا مطمئن شوید که کد پستی درست است","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtPostalCode","colSpan":4}],[{"type":"text","variable":"txtEmail","var_uid":"607823135688bc5b3afd605045260191","dataType":"string","protectedValue":false,"id":"txtEmail","name":"txtEmail","label":"ایمیل:","tabIndex":"","defaultValue":"","placeholder":"","hint":"","ariaLabel":"","required":true,"requiredFieldErrorMessage":"","textTransform":"none","validate":"^\\w+(\\.\\w+)*@(\\w+\\.)+\\w{2,4}$","validateMessage":"لطفا مطمئن شوید که ایمیل به درستی وارد شده است.","maxLength":1000,"formula":"","mode":"parent","operation":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","memoryCache":false,"var_name":"txtEmail","colSpan":12}],[{"type":"subtitle","id":"subDocuments","label":"لطفا مدارک را در این قسمت آپلود کنید","ariaLabel":"","colSpan":12}],[{"type":"multipleFile","variable":"mfiDocuments","var_uid":"960444431688b61591bb652044027247","dataType":"multiplefile","protectedValue":false,"id":"mfiDocuments","name":"mfiDocuments","label":"","tabIndex":"","ariaLabel":"","inputDocument":"doctuments","required":false,"requiredFieldErrorMessage":"","dnd":false,"extensions":"*.jpeg,*.pdf,*.png","size":10,"sizeUnity":"MB","enableVersioning":false,"mode":"parent","multiple":false,"inp_doc_uid":"616958964688b9b6c34a483001370078","var_name":"mfiDocuments","colSpan":12}],[{"type":"submit","id":"btnSubmit","name":"btnSubmit","label":"ثبت درخواست","tabIndex":"","ariaLabel":"","colSpan":12}],[{"type":"hidden","variable":"CaseOwner","var_uid":"436783525688ba609d19748011020372","dataType":"string","protectedValue":false,"id":"CaseOwner","name":"CaseOwner","defaultValue":"","dbConnection":"workflow","dbConnectionLabel":"PM Database","sql":"","var_name":"CaseOwner","colSpan":12}]],"variables":[{"var_uid":"105412319688b4cd4a07670076191511","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"radApplicantType","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"564031581688b54db398058011973900","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtFullName_1","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"737130628688b550847e292055124354","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtNationalID_1","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"314902589688b58061aaca8021823263","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"datBirthday","var_field_type":"datetime","var_field_size":10,"var_label":"datetime","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"660133220688b57d0d72223019066972","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtFatherName","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"469166755688b58a06417a1078084796","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtBirthLocation","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"464122926688b58708c34f0035268386","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtCertID","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"615634112688b551d6116e7039035102","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtMobile_1","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"964291802688b5528408516037183376","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPhone_1","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":[],"inp_doc_uid":""},{"var_uid":"287612485688b59ffd78d94062531327","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"radGender","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[{\"value\":\"female\",\"label\":\"زن\"},{\"value\":\"male\",\"label\":\"مرد\"}]","inp_doc_uid":""},{"var_uid":"986942759688b6100d7a824041128023","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtFullName_2","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"706670628688b60f56606b0082741354","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtNationalID_2","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"664885630688b611a259aa3097214206","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtMobile_2","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"190877037688b610d4c6b31077302343","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPhone_2","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"203301626688c54233cad12094589656","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPassword","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"448581489688b64703ef266084114442","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtMobile_3","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"250825858688b645b390f55078879325","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPhone_3","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"110710856688b614924c677058026036","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txrAddress","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"795427883688b613c893eb2075273359","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"drpCity","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"260521674688b5511b21ad7030232771","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtPostalCode","var_field_type":"integer","var_field_size":10,"var_label":"integer","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"607823135688bc5b3afd605045260191","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"txtEmail","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"960444431688b61591bb652044027247","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"mfiDocuments","var_field_type":"multiplefile","var_field_size":10,"var_label":"multiplefile","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""},{"var_uid":"436783525688ba609d19748011020372","prj_uid":"763275685688b4b1b3e7363045948797","var_name":"CaseOwner","var_field_type":"string","var_field_size":10,"var_label":"string","var_dbconnection":"workflow","var_dbconnection_label":"PM Database","var_sql":"","var_null":0,"var_default":"","var_accepted_values":"[]","inp_doc_uid":""}]}]}]]></dyn_content>
+        <dyn_label></dyn_label>
+        <dyn_version>2</dyn_version>
+        <dyn_update_date><![CDATA[2025-10-30 16:25:38]]></dyn_update_date>
+      </record>
+    </table>
+    <table name="steps">
+      <record>
+        <step_uid>930461785688c61c135d3c4069716727</step_uid>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tas_uid>670416600688b4be986da48022241181</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>495347653688b4c5f36c881013286226</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>20307245168fb26dd5e3d49046471697</step_uid>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tas_uid>944243076688b4b99bf7fd6093752220</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>454576858689793a777f344008495089</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+      <record>
+        <step_uid>583211897688bc356c132f2035985285</step_uid>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tas_uid>wee-61549688b4b4a0249a7037893679</tas_uid>
+        <step_type_obj>DYNAFORM</step_type_obj>
+        <step_uid_obj>495347653688b4c5f36c881013286226</step_uid_obj>
+        <step_condition></step_condition>
+        <step_position>1</step_position>
+        <step_mode>EDIT</step_mode>
+      </record>
+    </table>
+    <table name="triggers">
+      <record>
+        <tri_uid>164839895688c56565ac093079260813</tri_uid>
+        <tri_title>SetMaxDate</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@max_date = getCurrentDate() ;]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>181485490689396dbdb4ca0064767690</tri_uid>
+        <tri_title>UserDatabaseInserter</tri_title>
+        <tri_description>puts data in new database.</tri_description>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$sql = "INSERT INTO users_custom (full_name, national_id, phone, mobile, postal_code)
+        VALUES (?, ?, ?, ?, ?)";
+
+$result = executeQuery($sql, [
+    @@txtFullName_1,
+    @@txtNationalID_1,
+    @@txtPhone_1,
+    @@txtMobile_1,
+    @@txtPostalCode
+]);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>55919656068fb278e30f030098321726</tri_uid>
+        <tri_title>NameToUID</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[// مقدار username (مثلاً از فرم یا متغیر ورودی)
+$username = @@txtNationalID_1;  
+
+// کوئری
+$query = "SELECT USR_UID FROM USERS WHERE USR_USERNAME = '$username'";
+
+// اجرا
+$result = executeQuery($query);
+
+// بررسی نتیجه
+if (is_array($result) && count($result) > 0) {
+    @@CaseOwner = $result[1]['USR_UID'];
+} else {
+    @@CaseOwner = '';
+}
+
+$GroupUID = '449148606688bc43a656e86076810979';
+$assign = PMFAssignUserToGroup($userUID, $groupUID);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>657065974688ba657037232014717189</tri_uid>
+        <tri_title>SetCaseOwner</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[@@CaseOwner = @@USER_LOGGED ; ]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>68165130768fb1c51b8c548056455951</tri_uid>
+        <tri_title>Ajax</tri_title>
+        <tri_description></tri_description>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[$action = $_POST['action'] ?? '';
+
+if ($action == "check_duplicate_user") {
+
+  $national_id = $_POST['national_id'];
+  $postal_code = $_POST['postal_code'];
+
+  try {
+    $sql_select = "SELECT id FROM users_custom
+                   WHERE national_id = '$national_id' OR postal_code = '$postal_code'
+                   LIMIT 1";
+    $sql_result = executeQuery($sql_select);
+
+    if (is_array($sql_result) && count($sql_result) > 0) {
+      echo json_encode([
+        'result' => true,
+        'message' => 'کاربری با این کد ملی یا کد پستی قبلاً ثبت شده است.'
+      ]);
+    } else {
+      echo json_encode([
+        'result' => false,
+        'message' => 'اطلاعات تکراری نیست و قابل ثبت است.'
+      ]);
+    }
+
+  } catch (Exception $e) {
+    echo json_encode([
+      'result' => false,
+      'message' => 'خطا در اجرای کوئری: ' . $e->getMessage()
+    ]);
+  }
+
+  exit;
+}
+]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+      <record>
+        <tri_uid>969195445688bc583b7c9b5057265613</tri_uid>
+        <tri_title>AddUser</tri_title>
+        <tri_description><![CDATA[this trigger add guest to users list and assign them into "new" group.]]></tri_description>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <tri_type>SCRIPT</tri_type>
+        <tri_webbot><![CDATA[// ====== مرحله 1: گرفتن داده های فرم ======
+$nationalId = @@txtNationalID_1;    // کد ملی
+$postalCode = @@txtPostalCode;      // کد پستی
+$password   = @@txtPassword;        // پسورد
+$firstName  = "Mr.";
+$lastName   = @@txtFullName_1;      // نام کامل
+$email      = @@txtEmail;           // ایمیل
+$role       = 'PROCESSMAKER_OPERATOR';
+$phone		= @@txtMobile_1;
+$mobile		= @@txtPhone_1;
+
+// ====== مرحله 3: ساخت کاربر جدید ======
+$userUID = PMFCreateUser($nationalId, $password, $firstName, $lastName, $email, $role);
+
+$groupName = 'New';
+$query = "SELECT GRP_UID FROM GROUPWF WHERE GRP_TITLE = '$groupName'";
+$result = executeQuery($query);
+
+
+
+
+$insertQuery = "INSERT INTO users_custom (id, full_name, national_id, phone, mobile, postal_code, created_at) 
+VALUES ('$nationalId', '$lastName', '$nationalId', '$phone', '$mobile', '$postalCode', CURRENT_TIMESTAMP)";
+    executeQuery($insertQuery);]]></tri_webbot>
+        <tri_param></tri_param>
+      </record>
+    </table>
+    <table name="taskusers">
+      <record>
+        <tas_uid>670416600688b4be986da48022241181</tas_uid>
+        <tas_id>0</tas_id>
+        <usr_uid>449148606688bc43a656e86076810979</usr_uid>
+        <tu_type>1</tu_type>
+        <tu_relation>2</tu_relation>
+        <assigned_id>0</assigned_id>
+      </record>
+      <record>
+        <tas_uid>670416600688b4be986da48022241181</tas_uid>
+        <tas_id>0</tas_id>
+        <usr_uid>449148606688bc43a656e86076810979</usr_uid>
+        <tu_type>2</tu_type>
+        <tu_relation>2</tu_relation>
+        <assigned_id>0</assigned_id>
+      </record>
+      <record>
+        <tas_uid>944243076688b4b99bf7fd6093752220</tas_uid>
+        <tas_id>0</tas_id>
+        <usr_uid>346228324688bc0fcaed528056988776</usr_uid>
+        <tu_type>1</tu_type>
+        <tu_relation>2</tu_relation>
+        <assigned_id>0</assigned_id>
+      </record>
+    </table>
+    <table name="groupwfs">
+      <record>
+        <grp_uid>346228324688bc0fcaed528056988776</grp_uid>
+        <grp_title>Human Resources</grp_title>
+        <grp_status>ACTIVE</grp_status>
+        <grp_status_id>0</grp_status_id>
+        <grp_ldap_dn></grp_ldap_dn>
+        <grp_ux>NORMAL</grp_ux>
+      </record>
+      <record>
+        <grp_uid>449148606688bc43a656e86076810979</grp_uid>
+        <grp_title>New</grp_title>
+        <grp_status>ACTIVE</grp_status>
+        <grp_status_id>0</grp_status_id>
+        <grp_ldap_dn></grp_ldap_dn>
+        <grp_ux>NORMAL</grp_ux>
+      </record>
+    </table>
+    <table name="steptriggers">
+      <record>
+        <step_uid>583211897688bc356c132f2035985285</step_uid>
+        <tas_uid>wee-61549688b4b4a0249a7037893679</tas_uid>
+        <tri_uid>164839895688c56565ac093079260813</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>583211897688bc356c132f2035985285</step_uid>
+        <tas_uid>wee-61549688b4b4a0249a7037893679</tas_uid>
+        <tri_uid>55919656068fb278e30f030098321726</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+      <record>
+        <step_uid>583211897688bc356c132f2035985285</step_uid>
+        <tas_uid>wee-61549688b4b4a0249a7037893679</tas_uid>
+        <tri_uid>68165130768fb1c51b8c548056455951</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>583211897688bc356c132f2035985285</step_uid>
+        <tas_uid>wee-61549688b4b4a0249a7037893679</tas_uid>
+        <tri_uid>969195445688bc583b7c9b5057265613</tri_uid>
+        <st_type>AFTER</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>930461785688c61c135d3c4069716727</step_uid>
+        <tas_uid>670416600688b4be986da48022241181</tas_uid>
+        <tri_uid>164839895688c56565ac093079260813</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>1</st_position>
+      </record>
+      <record>
+        <step_uid>930461785688c61c135d3c4069716727</step_uid>
+        <tas_uid>670416600688b4be986da48022241181</tas_uid>
+        <tri_uid>657065974688ba657037232014717189</tri_uid>
+        <st_type>BEFORE</st_type>
+        <st_condition></st_condition>
+        <st_position>2</st_position>
+      </record>
+    </table>
+    <table name="dbconnections"/>
+    <table name="reportTables"/>
+    <table name="reportTablesVars"/>
+    <table name="stepSupervisor"/>
+    <table name="objectPermissions"/>
+    <table name="subProcess"/>
+    <table name="caseTracker">
+      <record>
+        <pro_uid>763275685688b4b1b3e7363045948797</pro_uid>
+        <ct_map_type>PROCESSMAP</ct_map_type>
+        <ct_derivation_history>1</ct_derivation_history>
+        <ct_message_history>1</ct_message_history>
+      </record>
+    </table>
+    <table name="caseTrackerObject"/>
+    <table name="stage"/>
+    <table name="fieldCondition"/>
+    <table name="event"/>
+    <table name="caseScheduler"/>
+    <table name="processCategory"/>
+    <table name="taskExtraProperties"/>
+    <table name="processUser"/>
+    <table name="processVariables">
+      <record>
+        <var_uid>436783525688ba609d19748011020372</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>CaseOwner</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>314902589688b58061aaca8021823263</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>datBirthday</var_name>
+        <var_field_type>datetime</var_field_type>
+        <var_field_type_id>5</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>datetime</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>795427883688b613c893eb2075273359</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>drpCity</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>312713389688bbd881443c1022031780</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>is_approved</var_name>
+        <var_field_type>boolean</var_field_type>
+        <var_field_type_id>4</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>boolean</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"1","label":"true"},{"value":"0","label":"false"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>960444431688b61591bb652044027247</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>mfiDocuments</var_name>
+        <var_field_type>multiplefile</var_field_type>
+        <var_field_type_id>9</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>multiplefile</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>105412319688b4cd4a07670076191511</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>radApplicantType</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>287612485688b59ffd78d94062531327</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>radGender</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[{"value":"female","label":"\u0632\u0646"},{"value":"male","label":"\u0645\u0631\u062f"}]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>110710856688b614924c677058026036</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txrAddress</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>469166755688b58a06417a1078084796</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtBirthLocation</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>464122926688b58708c34f0035268386</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtCertID</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>607823135688bc5b3afd605045260191</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtEmail</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>660133220688b57d0d72223019066972</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtFatherName</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>564031581688b54db398058011973900</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtFullName_1</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>986942759688b6100d7a824041128023</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtFullName_2</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>615634112688b551d6116e7039035102</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtMobile_1</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>664885630688b611a259aa3097214206</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtMobile_2</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>448581489688b64703ef266084114442</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtMobile_3</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>737130628688b550847e292055124354</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtNationalID_1</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>706670628688b60f56606b0082741354</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtNationalID_2</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>203301626688c54233cad12094589656</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtPassword</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>964291802688b5528408516037183376</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtPhone_1</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>190877037688b610d4c6b31077302343</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtPhone_2</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>250825858688b645b390f55078879325</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtPhone_3</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>260521674688b5511b21ad7030232771</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtPostalCode</var_name>
+        <var_field_type>integer</var_field_type>
+        <var_field_type_id>2</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>integer</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+      <record>
+        <var_uid>219871058688b9bf875f505014670258</var_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <var_name>txtUserName</var_name>
+        <var_field_type>string</var_field_type>
+        <var_field_type_id>1</var_field_type_id>
+        <var_field_size>10</var_field_size>
+        <var_label>string</var_label>
+        <var_dbconnection>workflow</var_dbconnection>
+        <var_sql></var_sql>
+        <var_null>0</var_null>
+        <var_default></var_default>
+        <var_accepted_values><![CDATA[[]]]></var_accepted_values>
+        <inp_doc_uid></inp_doc_uid>
+      </record>
+    </table>
+    <table name="webEntry"/>
+    <table name="webEntryEvent">
+      <record>
+        <wee_uid>209867579688bc350e976e8023634554</wee_uid>
+        <prj_uid>763275685688b4b1b3e7363045948797</prj_uid>
+        <evn_uid>861661549688b4b4a0249a7037893679</evn_uid>
+        <act_uid>944243076688b4b99bf7fd6093752220</act_uid>
+        <dyn_uid></dyn_uid>
+        <usr_uid>00000000000000000000000000000002</usr_uid>
+        <wee_title>861661549688b4b4a0249a7037893679</wee_title>
+        <wee_description></wee_description>
+        <wee_status>ENABLED</wee_status>
+        <wee_we_uid>202219085688bc350bc7088014931545</wee_we_uid>
+        <wee_we_tas_uid>wee-61549688b4b4a0249a7037893679</wee_we_tas_uid>
+        <wee_we_url>861661549688b4b4a0249a7037893679.php</wee_we_url>
+        <we_custom_title></we_custom_title>
+        <we_type>MULTIPLE</we_type>
+        <we_authentication>ANONYMOUS</we_authentication>
+        <we_hide_information_bar>1</we_hide_information_bar>
+        <we_callback>PROCESSMAKER</we_callback>
+        <we_callback_url></we_callback_url>
+        <we_link_generation>DEFAULT</we_link_generation>
+        <we_link_skin>classic</we_link_skin>
+        <we_link_language>en</we_link_language>
+        <we_link_domain></we_link_domain>
+        <tas_uid>wee-61549688b4b4a0249a7037893679</tas_uid>
+        <we_show_in_new_case>1</we_show_in_new_case>
+      </record>
+    </table>
+    <table name="messageType"/>
+    <table name="messageTypeVariable"/>
+    <table name="messageEventDefinition"/>
+    <table name="scriptTask"/>
+    <table name="timerEvent"/>
+    <table name="emailEvent"/>
+    <table name="filesManager"/>
+    <table name="abeConfiguration"/>
+    <table name="elementTask"/>
+  </definition>
+  <workflow-files>
+    <file target="dynaforms">
+      <file_name>SignUpFormApproval</file_name>
+      <file_path><![CDATA[763275685688b4b1b3e7363045948797\454576858689793a777f344008495089.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc2MzI3NTY4NTY4OGI0YjFiM2U3MzYzMDQ1OTQ4Nzk3LzQ1NDU3Njg1ODY4OTc5M2E3NzdmMzQ0MDA4NDk1MDg5IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="dynaforms">
+      <file_name>SignUpForm</file_name>
+      <file_path><![CDATA[763275685688b4b1b3e7363045948797\495347653688b4c5f36c881013286226.xml]]></file_path>
+      <file_content><![CDATA[PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPGR5bmFGb3JtIHR5cGU9InhtbGZvcm0iIG5hbWU9Ijc2MzI3NTY4NTY4OGI0YjFiM2U3MzYzMDQ1OTQ4Nzk3LzQ5NTM0NzY1MzY4OGI0YzVmMzZjODgxMDEzMjg2MjI2IiB3aWR0aD0iNTAwIiBlbmFibGV0ZW1wbGF0ZT0iMCIgbW9kZT0iIiBuZXh0c3RlcHNhdmU9InByb21wdCI+CjwvZHluYUZvcm0+]]></file_content>
+    </file>
+    <file target="public">
+      <file_name>861661549688b4b4a0249a7037893679Info.php</file_name>
+      <file_path><![CDATA[763275685688b4b1b3e7363045948797/861661549688b4b4a0249a7037893679Info.php]]></file_path>
+      <file_content><![CDATA[PD9waHAKCiRHX1BVQkxJU0ggPSBuZXcgUHVibGlzaGVyKCk7CiRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKJG1lc3NhZ2UgPSAiIjsKaWYgKGlzc2V0KCRfU0VTU0lPTlsiX193ZWJFbnRyeVN1Y2Nlc3NfXyJdKSkgewogICAgJHNob3cgPSAibG9naW4vc2hvd0luZm8iOwogICAgJG1lc3NhZ2UgPSAkX1NFU1NJT05bIl9fd2ViRW50cnlTdWNjZXNzX18iXTsKfSBlbHNlIHsKICAgICRzaG93ID0gImxvZ2luL3Nob3dNZXNzYWdlIjsKICAgICRtZXNzYWdlID0gJF9TRVNTSU9OWyJfX3dlYkVudHJ5RXJyb3JfXyJdOwp9CiRHX1BVQkxJU0gtPkFkZENvbnRlbnQoInhtbGZvcm0iLCAieG1sZm9ybSIsICRzaG93LCAiIiwgJG1lc3NhZ2UpOwpHOjpSZW5kZXJQYWdlKCJwdWJsaXNoIiwgImJsYW5rIik7Cgo=]]></file_content>
+    </file>
+  </workflow-files>
+</ProcessMaker-Project>
